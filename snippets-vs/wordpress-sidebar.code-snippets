@@ -1,0 +1,19 @@
+{
+	"Wordpress_sidebar": {
+		"prefix": "grs",
+		"scope": "php",
+		"body":[
+			"register_sidebar( array(",
+				"\t'id'\t\t\t=> 'sidebar-${1:$id}',",
+				"\t'name'\t\t\t=> '__( ${2:Sidebar Name}, ${4:Text Domain} )',",
+				"\t'description'\t=> '__( ${3:Sidebar Description}, ${4:Text Domain} )',",
+				"\t'class'\t\t\t=> '${5:some-class}',",
+				"\t'before_widget'\t=> '<${6:div} id=\"%1$$s\" class=\"widget-wrap %2$$s\">',",
+				"\t'after_widget'\t=> '</${6:div}>',",
+				"\t'before_title'\t=> '<${7:h2} class=\"widgettitle ${8:some-class}\">',",
+				"\t'after_title'\t=> '</${7:h2}>'",		
+			") );"
+		],
+		"description": "Register sidebar for wordpress"
+	}
+}
