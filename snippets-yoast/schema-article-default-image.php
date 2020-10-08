@@ -34,7 +34,7 @@ function as_schema_article_default_image( $data ) {
 	$data['primaryImageOfPage']['type']		= 'ImageObject';
 	$data['primaryImageOfPage']['@id']		= $permalink.'#primaryimage';
 	$data['primaryImageOfPage']['url']		= $image_url;
-	$data['primaryImageOfPage']['inLanguage']		= $language;
+	$data['primaryImageOfPage']['inLanguage']	= $language;
 	$data['primaryImageOfPage']['width']		= $image_width;
 	$data['primaryImageOfPage']['height']		= $image_height;
 
