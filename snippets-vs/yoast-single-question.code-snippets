@@ -1,0 +1,12 @@
+{
+	"Yoast Single question": {
+		"prefix": "yoast-single-question",
+		"body": [
+			"<div class=\"schema-faq-section\">",
+			"  <strong class=\"schema-faq-question\">${1:QUESTION}</strong>",
+			"  <p class=\"schema-faq-answer\">${2:ANSWER}</p>",
+			"</div>"
+		],
+		"description": "Yoast Single question"
+	}
+}

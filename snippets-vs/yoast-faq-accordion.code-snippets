@@ -1,0 +1,9 @@
+{
+	"Yoast FAQ Accordion Block": {
+		"prefix": "yoast-faq-accordion",
+		"body": [
+			".schema-faq.wp-block-yoast-faq-block.yoast-faq-accordion>(.schema-faq-section>strong.schema-faq-question+p.schema-faq-answer)*${1:QUESTIONS}"
+		],
+		"description": "Yoast FAQ Accordion Block"
+	}
+}
