@@ -24,10 +24,10 @@ function messageIE() {
 }
 
 //function to show alert if it's IE
-function ShowIEAlert(){
+function showMessageIE(){
     if(isIE()){
         messageIE();
     } 
 }
 
-ShowIEAlert();
+showMessageIE();
