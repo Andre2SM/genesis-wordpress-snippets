@@ -51,6 +51,7 @@ function twentytwentytwo_register_block_patterns() {
      */
 
 	$block_patterns = array(
+        'demo-pattern',
 		'footer-default',
 		'footer-dark',
 		'footer-logo',
