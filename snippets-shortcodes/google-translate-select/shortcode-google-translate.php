@@ -7,8 +7,6 @@ function shortcode_google_translate( $atts, $content = null ) {
     $array = array(
         'target_url' => get_permalink(),
     );
-
-    var_dump($array);
     
     wp_localize_script( 'sast-google-translate', 'translate_object', $array );
     wp_enqueue_script('sast-google-translate');
